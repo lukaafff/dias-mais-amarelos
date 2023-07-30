@@ -1,45 +1,44 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { MenuData } from './MenuData';
-
-import "./Navbar.css";
-import LogoIcon from "../../images/logo-icon.png";
+import './Navbar.css';
+import LogoIcon from '../../images/logo-icon.png';
 
 const Navbar = () => {
-  //menu
   const [clicked, setClicked] = useState(false);
 
   const handleClick = () => {
     setClicked(!clicked);
   };
 
+  const handleItemClick = () => {
+    setClicked(false); 
+  };
+
   return (
-    <div className='NavContainer'>
+    <div className="NavContainer">
       <nav className="NavbarItens">
-        <div className='logo'>
-          <a href='#'>
+        <div className="logo">
+          <a href="#">
             <img src={LogoIcon} alt="logo" />
           </a>
-          <p className='nomeLogo'>Dias Mais Amarelos</p>
+          <p className="nomeLogo">Dias Mais Amarelos</p>
         </div>
-        
-        <ul className= {clicked ? "nav-menu active" : "nav-menu"}>
+
+        <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
           {MenuData.map((item, index) => (
             <li key={index}>
-              <a href={item.rota} className={item.cName}>
+              <a href={item.rota} className={item.cName} onClick={handleItemClick}>
                 {item.nome}
               </a>
-              </li>
-            ))}
+            </li>
+          ))}
         </ul>
-        <div className='menu' onClick={handleClick}>
-          <i 
-            className= {clicked ? "bx bx-x" : "bx bx-menu"}
-            id='menu-icon'
-          ></i>
+        <div className="menu" onClick={handleClick}>
+          <i className={clicked ? 'bx bx-x' : 'bx bx-menu'} id="menu-icon"></i>
         </div>
       </nav>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
