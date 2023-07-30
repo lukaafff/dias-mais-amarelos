@@ -1,0 +1,93 @@
+.NavbarItens {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 96px;
+    background-color: #151518;
+    padding: 0 30px; 
+    overflow: hidden;
+}
+
+.NavbarItens .logo {
+    display: flex;
+    align-items: center;
+}
+
+.NavbarItens .logo img {
+    width: 170px;
+}
+
+.NavbarItens .logo .nomeLogo {
+    color: #fae277;
+    font-weight: 600;
+    position: relative;
+    right: 10px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(15, auto);
+    grid-gap: 20px;
+    list-style: none;
+}
+
+.navbar-links {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.navbar-links:hover {
+    color: #fae277;
+}
+
+.menu{
+    display: none;
+}
+
+.bx-menu,
+.bx-x {
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1068px) {
+    .menu {
+        display: block;
+        z-index: 100;
+    }
+    .NavbarItens {
+        z-index: 99;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: #161616;
+        height: auto;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        width: 100%;
+        align-items: stretch;
+        padding: 130px 30px 40px;
+        margin: 0;
+        z-index: 100;
+        transition: all 0.5s ease-in-out;
+    }
+    .nav-menu.active{
+        right: 0%;
+    }
+    .nav-links{
+        display: block;
+        widows: 100%;
+        padding: 0.8rem 0;
+    }
+}
