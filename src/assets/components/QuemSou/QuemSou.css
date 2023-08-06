@@ -1,0 +1,5 @@
+.image-gallery-3 img {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
