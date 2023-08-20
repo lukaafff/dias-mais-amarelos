@@ -1,0 +1,29 @@
+.contatoContainer {
+    margin-top: 90px;
+}
+
+.contatoContainer h2,
+.contatoContainer h3 {
+    color: #FFDE51;
+    font-size: 2rem;
+}
+
+.contatoContainer h3 {
+    font-size: 1.3rem;
+}
+
+.ctn  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.span-contato {
+    display: flex;
+    position: relative;
+}
+
+.textoResponsivo {
+   text-indent: 0px;
+}

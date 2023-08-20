@@ -1,7 +1,7 @@
 export const MenuData = [
     {
         nome: "Inicio",
-        rota: "#",
+        rota: "/",
         cName: "navbar-links"
     },
     {
@@ -21,7 +21,7 @@ export const MenuData = [
     },
     {
         nome: "Contato",
-        rota: "#",
+        rota: "/contato",
         cName: "navbar-links"
     }
 ]

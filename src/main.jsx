@@ -3,8 +3,30 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+import TelaContato from "./assets/routes/Contato/Contato.jsx";
+import Inicio from './assets/routes/Inicio.jsx';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+    children: [
+      {
+        path: "/",
+        element: <Inicio/>
+      },
+      {
+        path: "contato",
+        element: <TelaContato/>
+      },
+    ],
+  },
+]);
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>,
 )

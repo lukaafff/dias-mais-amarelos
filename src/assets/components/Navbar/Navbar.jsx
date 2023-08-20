@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className="NavContainer">
       <nav className="NavbarItens">
         <div className="logo">
-          <a href="#">
+          <a href="/">
             <img src={LogoIcon} alt="logo" />
           </a>
           <p className="nomeLogo">Dias Mais Amarelos</p>

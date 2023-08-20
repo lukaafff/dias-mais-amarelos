@@ -50,6 +50,8 @@ const Projeto = () => {
       <div className='box'>
         <h2 id='apresentacoes'>Apresentações</h2>
         <h3 className='sub_titulo'>CEOM &#8211; Colégio Estadual Otaviano de Moraes &#10098;Paraúna &#8211; GO&#10099; &#8211; 2022</h3>
+        <p className='textoResponsivo center'><i className='bx bxl-instagram'></i> ceomparauna</p>
+        <br />
         <p className='textoResponsivo'>
           A primeira apresentação do projeto, que ainda não tinha um nome, foi realizado no Colégio Estadual Otaviano de Moraes, juntamente com os alunos Gustavo Rodrigues e Emilly Santos, com o apoio da gestão escolar e pelo professor Fábio.
         </p>
@@ -95,6 +97,26 @@ const Projeto = () => {
             className='responsive-image'
           />
         </div>
+        <br />
+
+        <h3 className='sub_titulo'>Depoimentos</h3>
+        <p className='textoResponsivo'>
+          “Essa trabalho, da apresentação sobre o Setembro Amarelo com a junção do livro escrito por Laura, teve um significado importante para mim. 
+          Eu já passei por momentos difíceis na minha vida, o que acabou afetado o meu psicológico, então falar sobre a saúde mental é importante e teve um significado especial para mim.
+          Fiquei muito feliz em participar desse projeto lindo e isso fez eu enxergar o quanto eu evoluí durante todo esse tempo, eu fui a protagonista da minha história e isso me deixa emocionada, por ser muito difícil lutar contra nossos monstro e medos.” <b>&#10098;Emilly Santos&#10099;.</b>
+        </p>
+        
+        <p className='textoResponsivo center'><i className='bx bxl-instagram'></i> emillysantos829</p>
+
+        <br />
+
+        <p className='textoResponsivo'>
+        “No ano de 2022 fizemos a primeira apresentação do projeto e foi um grande marco em nossas vidas, falar sobre um assunto tão importante nos trouxe uma nova forma de ver as coisas, e agora evoluímos como pessoas. 
+          O projeto, Dias Mais Amarelos, nos deu uma grande oportunidade de aprendizagem e crescimento intelectual e emocional. 
+          Participar foi uma experiência inesquecível, agradeço muito pela oportunidade da realização desse projeto e faremos o possível para que em 2023 seja ainda melhor do que o ano anterior.” <b>&#10098;Gustavo Rodrigues&#10099;.</b>
+        </p>
+        
+        <p className='textoResponsivo center'><i className='bx bxl-instagram'></i> guh_rodri16</p>
 
       </div>
 
@@ -133,6 +155,9 @@ const Projeto = () => {
             className='responsive-image'
           />
         </div>
+
+        <p className='textoResponsivo center'><i className='bx bxl-instagram'></i> guh_rodri16</p>
+        <p className='textoResponsivo center'><i className='bx bxl-instagram'></i> ceomparauna</p>
 
       </div>
      
