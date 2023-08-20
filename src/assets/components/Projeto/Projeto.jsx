@@ -13,6 +13,8 @@ import ImgCarousel3 from "../../images/foto site 3.jpeg";
 
 const Projeto = () => {
 
+
+
   const urlVideo = "https://firebasestorage.googleapis.com/v0/b/loja-roupa-45e30.appspot.com/o/apresenta%C3%A7%C3%A3o%20resumo.mp4?alt=media&token=bbcaea3a-48ab-48ef-9685-6553e9c122c1"
 
   return (

@@ -30,4 +30,16 @@
     width: calc(33.33% - 10px);
     margin-bottom: 10px;
   }
-  
+
+  @media screen and (max-width:1068px) {
+    .image-gallery,
+    .image-gallery-2 {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .image-gallery img,
+    .image-gallery-2 img {
+      width: 100%;
+    }
+  }
