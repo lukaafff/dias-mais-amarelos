@@ -3,6 +3,7 @@ import React from 'react';
 import "./Projeto.css";
 
 import QuemSou from '../QuemSou/QuemSou';
+import Contato from '../../routes/Contato/Contato';
 
 import Wallpaper from "../../images/bg.png";
 import Thumb from "../../images/thumb.jpg";
@@ -50,7 +51,7 @@ const Projeto = () => {
       <div className='box'>
         <h2 id='apresentacoes'>Apresentações</h2>
         <h3 className='sub_titulo'>CEOM &#8211; Colégio Estadual Otaviano de Moraes &#10098;Paraúna &#8211; GO&#10099; &#8211; 2022</h3>
-        <p className='textoResponsivo center'><i className='bx bxl-instagram'></i> ceomparauna</p>
+        <p className='textoResponsivo center'><i className='bx bxl-instagram'></i><a target='_blank' href="https://www.instagram.com/ceomparauna/">ceomparauna</a></p>
         <br />
         <p className='textoResponsivo'>
           A primeira apresentação do projeto, que ainda não tinha um nome, foi realizado no Colégio Estadual Otaviano de Moraes, juntamente com os alunos Gustavo Rodrigues e Emilly Santos, com o apoio da gestão escolar e pelo professor Fábio.
@@ -106,7 +107,7 @@ const Projeto = () => {
           Fiquei muito feliz em participar desse projeto lindo e isso fez eu enxergar o quanto eu evoluí durante todo esse tempo, eu fui a protagonista da minha história e isso me deixa emocionada, por ser muito difícil lutar contra nossos monstro e medos.” <b>&#10098;Emilly Santos&#10099;.</b>
         </p>
         
-        <p className='textoResponsivo center'><i className='bx bxl-instagram'></i> emillysantos829</p>
+        <p className='textoResponsivo center'><i className='bx bxl-instagram'></i><a target='_blank' href="https://www.instagram.com/emillysantos829">emillysantos829</a></p>
 
         <br />
 
@@ -116,7 +117,7 @@ const Projeto = () => {
           Participar foi uma experiência inesquecível, agradeço muito pela oportunidade da realização desse projeto e faremos o possível para que em 2023 seja ainda melhor do que o ano anterior.” <b>&#10098;Gustavo Rodrigues&#10099;.</b>
         </p>
         
-        <p className='textoResponsivo center'><i className='bx bxl-instagram'></i> guh_rodri16</p>
+        <p className='textoResponsivo center'><i className='bx bxl-instagram'></i><a target='_blank' href="https://www.instagram.com/guh_rodri16">guh_rodri16</a></p>
 
       </div>
 
@@ -156,11 +157,13 @@ const Projeto = () => {
           />
         </div>
 
-        <p className='textoResponsivo center'><i className='bx bxl-instagram'></i> guh_rodri16</p>
-        <p className='textoResponsivo center'><i className='bx bxl-instagram'></i> ceomparauna</p>
+        <p className='textoResponsivo center'><i className='bx bxl-instagram'></i><a target='_blank' href="https://www.instagram.com/guh_rodri16">guh_rodri16</a></p>
+        <p className='textoResponsivo center'><i className='bx bxl-instagram'></i><a target='_blank' href="https://www.instagram.com/ceomparauna/">ceomparauna</a></p>
 
       </div>
      
+      <Contato/>
+
     </div>
   )
 }

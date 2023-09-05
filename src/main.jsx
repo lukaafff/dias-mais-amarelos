@@ -17,10 +17,6 @@ const router = createBrowserRouter([
         path: "/",
         element: <Inicio/>
       },
-      {
-        path: "contato",
-        element: <TelaContato/>
-      },
     ],
   },
 ]);
