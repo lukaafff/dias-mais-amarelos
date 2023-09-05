@@ -5,7 +5,7 @@ import "./Contato.css";
 function Contato() {
   return (
     <div className='contatoContainer'>
-      <h2>Contato</h2>
+      <h2 id='contato'>Contato</h2>
       <div className="ctn">
           <h3>Instagram:</h3>
 

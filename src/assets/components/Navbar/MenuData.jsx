@@ -21,7 +21,7 @@ export const MenuData = [
     },
     {
         nome: "Contato",
-        rota: "/contato",
+        rota: "#contato",
         cName: "navbar-links"
     }
 ]
