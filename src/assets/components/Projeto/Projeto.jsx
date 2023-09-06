@@ -102,9 +102,9 @@ const Projeto = () => {
 
         <h3 className='sub_titulo'>Depoimentos</h3>
         <p className='textoResponsivo'>
-          “Essa trabalho, da apresentação sobre o Setembro Amarelo com a junção do livro escrito por Laura, teve um significado importante para mim. 
-          Eu já passei por momentos difíceis na minha vida, o que acabou afetado o meu psicológico, então falar sobre a saúde mental é importante e teve um significado especial para mim.
-          Fiquei muito feliz em participar desse projeto lindo e isso fez eu enxergar o quanto eu evoluí durante todo esse tempo, eu fui a protagonista da minha história e isso me deixa emocionada, por ser muito difícil lutar contra nossos monstro e medos.” <b>&#10098;Emilly Santos&#10099;.</b>
+        “Esse trabalho, da apresentação sobre o Setembro Amarelo com a junção do livro escrito pela Laura, teve um significado importante para mim. 
+        Eu já passei por momentos difíceis na minha vida, o que acabou afetando o meu psicológico, então falar sobre a saúde mental é importante e por isso teve um significado especial.
+        Fiquei muito feliz em participar desse projeto lindo e isso fez eu enxergar o quanto eu evoluí durante todo esse tempo, eu fui a protagonista da minha história e isso me deixa emocionada, por ser muito difícil lutar contra nossos monstros e medos.” <b>&#10098;Emilly Santos&#10099;.</b>
         </p>
         
         <p className='textoResponsivo center'><i className='bx bxl-instagram'></i><a target='_blank' href="https://www.instagram.com/emillysantos829">emillysantos829</a></p>
